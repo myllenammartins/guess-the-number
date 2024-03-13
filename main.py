@@ -81,4 +81,5 @@ def guess_the_number():
             agradecer_jogador(nome_jogador)
             break
 
-guess_the_number()
+if __name__ == "__main__":
+    guess_the_number()
